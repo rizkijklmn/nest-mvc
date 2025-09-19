@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # nest-mvc
 starter flow
 =======
@@ -101,3 +102,7 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
 >>>>>>> 48016d2 (initial commit)
+=======
+# nest-mvc
+starter flow
+>>>>>>> a6e1b90c37a2d6c4eb3972c64fa65a099d7a4744
