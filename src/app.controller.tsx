@@ -5,6 +5,7 @@ import { AppService } from "./app.service";
 import { JsxRender } from "./jsxrender.decorator";
 import Home from "./views/Home";
 import AdminLayout from "./views/AdminLayout";
+import Layout from "./views/Layout";
 
 @Controller()
 export class AppController {
@@ -16,9 +17,9 @@ export class AppController {
   }
 
   @Get("/home")
-  @JsxRender({ view: Home }) // kasih tau engine, pakai komponen Home
+  @JsxRender({ view: Home, layout: Layout })
   getHome() {
-    return { name: "Riski" }; // ini props untuk Home
+    // return { name: "Riski" }; // Parsing props
   }
 
   @Get("/admin")

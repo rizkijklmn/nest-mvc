@@ -1,3 +1,5 @@
+// src/jsxrender.decorator.ts
+
 import * as React from "react";
 import "reflect-metadata";
 import { RENDER_METADATA } from "@nestjs/common/constants";
